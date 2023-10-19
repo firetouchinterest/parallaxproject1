@@ -1,0 +1,129 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Poppins", comicsansms;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:rgb(255, 255, 255);
+}
+
+/* */ /* */ /* */ 
+
+.pimg1, .pimg2, .pimg3
+{
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* */ /* */ /* */ 
+
+.pimg1
+{
+    background-image:url('https://s.yimg.com/ny/api/res/1.2/svGt_xVhrzQOQoMcWlGSVg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTMzOQ--/https://media.zenfs.com/en/globenewswire.com/35554292cdcdd7a704827a4fd6471a27');
+    min-height: 100%;
+}
+
+/* */ /* */ /* */ 
+
+.pimg2
+{
+    background-image:url('https://www.pcrisk.com/images/stories/screenshots202110/robux-generator-scam-appearance.gif');
+    min-height: 100%;
+}
+
+/* */ /* */ /* */ 
+
+.pimg3
+{
+    background-image:url('https://englishtribuneimages.blob.core.windows.net/gallary-content/2023/4/2023_4$largeimg_1789807408.jpg');
+    min-height: 100%;
+}
+
+/* */ /* */ /* */ 
+
+.section
+{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+/* */ /* */ /* */ 
+
+.section-light
+{
+    background-color: green;
+    color:beige;
+}
+
+/* */ /* */ /* */ 
+
+.section-dark
+{
+    background-color: green;
+    color:beige;
+}
+
+/* */ /* */ /* */ 
+
+.ptext
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+/* */ /* */ /* */ 
+
+.ptext .border
+{
+    background-color: lightblue;
+    color:rgb(255, 0, 43);
+    padding: 20px;
+}
+
+/* */ /* */ /* */ 
+
+.ptext .border .trans
+{
+    background-color: transparent;
+}
+
+/* */ /* */ /* */ 
+
+a
+{
+    color:orange;
+    text-decoration: none;
+}
+
+/* */ /* */ /* */ 
+
+a:visited 
+{
+    color: rgb(0,255,255)
+}
+
+/* */ /* */ /* */ 
+
+a:hover 
+{
+    color: rgb(255,0,255)
+}
+
+/* */ /* */ /* */ 
+
+@media(max-width:568px)
+{
+    .pimg1, .pimg2, .pimg3 {background-attachment:scroll}
+}
